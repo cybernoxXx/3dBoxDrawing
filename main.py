@@ -1,4 +1,6 @@
 def drawBox(size):
+    if size < 1:
+        return None
 
     # Printing first line
     print(" " * (size + 1) + '+' + '-' * size * 2 + '+')
